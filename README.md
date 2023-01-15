@@ -6,10 +6,10 @@
 
 ### Socials
     
--<a target='_blank' rel="noreferrer" href='https://www.linkedin.com/in/wthomascrowe'>LinkedIn</a>
--<a target='_blank' rel="noreferrer" href="https://www.facebook.com/tcrowe4">Facebook</a>
--<a target='_blank' rel="noreferrer" href="https://www.instagram.com/wtcrowe4">Instagram</a>
--<a target='_blank' rel="noreferrer" href="https://twitter.com/wtcrowe4">Twitter</a>
+- <a target='_blank' rel="noreferrer" href='https://www.linkedin.com/in/wthomascrowe'>LinkedIn</a>
+- <a target='_blank' rel="noreferrer" href="https://www.facebook.com/tcrowe4">Facebook</a>
+- <a target='_blank' rel="noreferrer" href="https://www.instagram.com/wtcrowe4">Instagram</a>
+- <a target='_blank' rel="noreferrer" href="https://twitter.com/wtcrowe4">Twitter</a>
 
 
 - 🌱 I’ve recently completed a year long full stack software development course at N.C. State University.
