@@ -6,7 +6,10 @@
 
 ### Socials
     
-<a href='https://www.linkedin.com/in/wthomascrowe'>LinkedIn</a>
+<a target='_blank' rel="noreferrer" href='https://www.linkedin.com/in/wthomascrowe'>LinkedIn</a>
+<a target='_blank' rel="noreferrer" href="https://www.facebook.com/tcrowe4">Facebook</a>
+<a target='_blank' rel="noreferrer" href="https://www.instagram.com/wtcrowe4">Instagram</a>
+<a target='_blank' rel="noreferrer" href="https://twitter.com/wtcrowe4">Twitter</a>
 
 <!--
 **wtcrowe4/wtcrowe4** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
