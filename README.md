@@ -13,7 +13,7 @@
 
 
 - 🌱 I’ve recently completed a year long full stack software development course at N.C. State University.
-- 🔭 I’m currently working on my personal portfolio website.
+- 🔭 I’m currently working on my personal portfolio website utilizing Typescript, React, Tailwind and Node.
 
 <!--
 **wtcrowe4/wtcrowe4** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
