@@ -11,7 +11,7 @@
 - <a target='_blank' rel="noreferrer" href="https://www.instagram.com/wtcrowe4">Instagram</a>
 - <a target='_blank' rel="noreferrer" href="https://twitter.com/wtcrowe4">Twitter</a>
 
-
+### About Me
 - 🌱 I’ve recently completed a year long full stack software development course at N.C. State University.
 - 🔭 I’m currently working on my personal portfolio website utilizing Typescript, React, Tailwind and Node.
 
