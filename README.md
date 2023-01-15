@@ -1,8 +1,8 @@
 <img src='golf_icons.jpg' alt='golf'></img>
 
-### Welcome to my Github Profile 👋
-## Thomas Crowe
-# Full Stack Software Developer
+## Welcome to my Github Profile 👋
+# Thomas Crowe
+### Full Stack Software Developer
 
 
 <!--
