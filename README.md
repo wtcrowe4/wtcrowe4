@@ -6,7 +6,7 @@
 
 ### Socials
     
-    [![Linkedin Badge](https://img.shields.io/badge/-William%20Crowe-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/william-crowe-4b5b5b1b4/)](https://www.linkedin.com/in/wthomascrowe/) [![GitHub followers](https://img.shields.io/github/followers/wtcrowe4?label=Follow&style=social)](
+<a href='https://www.linkedin.com/in/wthomascrowe'>LinkedIn</a>
 
 <!--
 **wtcrowe4/wtcrowe4** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
