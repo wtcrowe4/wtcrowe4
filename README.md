@@ -1,6 +1,9 @@
 <img src='golf_icons.jpg' alt='golf'></img>
 
-### Hi there 👋
+### Welcome to my Github Profile 👋
+## Thomas Crowe
+# Full Stack Software Developer
+
 
 <!--
 **wtcrowe4/wtcrowe4** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
