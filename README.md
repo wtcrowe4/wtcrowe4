@@ -9,7 +9,7 @@
 - <a target='_blank' rel="noreferrer" href='https://www.linkedin.com/in/wthomascrowe'>LinkedIn</a>
 - <a target='_blank' rel="noreferrer" href="https://www.facebook.com/tcrowe4">Facebook</a>
 - <a target='_blank' rel="noreferrer" href="https://www.instagram.com/wtcrowe4">Instagram</a>
-- <a target='_blank' rel="noreferrer" href="https://twitter.com/wtcrowe4">X</a>
+- <a target='_blank' rel="noreferrer" href="https://twitter.com/tcrowe_iv">X</a>
 
 ### About Me
 - 🌱 I’ve recently completed a year long full stack software development program at N.C. State University.
