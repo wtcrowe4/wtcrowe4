@@ -1,5 +1,7 @@
 <!-- wtcrowe4/wtcrowe4 — GitHub profile README. Edit master-profile.md first, then sync. -->
 
+<img src="golf_icons.jpg" alt="Thomas Crowe — Full-Stack Developer & Technical Operations Lead" width="100%" />
+
 # Thomas Crowe
 
 ### Full-Stack Developer & Technical Operations Lead — [CalibrationWands.com](https://calibrationwands.com) (Fastec Services LLC)
