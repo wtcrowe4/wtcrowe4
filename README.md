@@ -1,10 +1,10 @@
 <!-- wtcrowe4/wtcrowe4 — GitHub profile README. Edit master-profile.md first, then sync. -->
 
-<img src="golf_icons.jpg" alt="Thomas Crowe — Full-Stack Developer & Technical Operations Lead" width="100%" />
+<img src="golf_icons.jpg" alt="Thomas Crowe — Full-Stack & AI Engineer" width="100%" />
 
 # Thomas Crowe
 
-### Full-Stack Developer & Technical Operations Lead — [CalibrationWands.com](https://calibrationwands.com) (Fastec Services LLC)
+### Full-Stack & AI Engineer — [CalibrationWands.com](https://calibrationwands.com) (Fastec Services LLC)
 
 📍 Greenville, SC &nbsp;·&nbsp; [LinkedIn](https://www.linkedin.com/in/wthomascrowe) &nbsp;·&nbsp; [Portfolio](https://thomascrowe.netlify.app) &nbsp;·&nbsp; 📫 wtcrowe4@outlook.com
 
@@ -21,16 +21,20 @@
 
 ---
 
-Sole technical operator of a B2B WooCommerce e-commerce manufacturer — I own the whole surface: the WordPress/PHP storefront and custom SKU systems, self-hosted Linux infrastructure, an ERP deployment with Python ETL, business-system integrations, and AI automation. I ship revenue-critical features, run the platform they deploy to, and translate between technical and business stakeholders daily.
+I build and run the entire technical stack of a B2B e-commerce manufacturer — production web apps, self-hosted AI automation, cloud infrastructure, and business-system integrations. Solo operator, every layer from React UI to Linux box. I turn manual operations into software that ships, and I run the platform it deploys to.
 
-## 🛠️ Recent work (shipped, for a real company)
+## 🤖 AI automation (self-hosted, zero per-call cost)
 
-- **Zero-downtime production migration** — moved a live WooCommerce store off a failing shared host to a Cloudways-managed DigitalOcean droplet. DNS + CDN cutover (Cloudflare), SSL, email deliverability, WP-cron via system crontab, Stripe webhook verification — **zero data loss**, plus post-migration credential rotation and 2FA rollout.
-- **Test Standards Hub** — built an internal order, certificate & production platform (React/Vite · Express · Prisma/PostgreSQL · Adobe PDF Services). Unifies WooCommerce + QuickBooks order tracking in one dashboard, auto-generates calibration certificates, tracks serialized test numbers in a relational DB, and emits **SVG engraving files straight to a CNC machine**.
-- **ERPNext v16 deployment + ETL** — built and deployed ERPNext (Docker) ahead of company rollout; designed a company-wide SKU schema and wrote Python ETL converting QuickBooks exports — **4,720 products and 2,852 customers** imported via API.
-- **Forensic data recovery** — recovered **1,534 corrupted WooCommerce order numbers** (third-party plugin fault) via SQL, then wrote PHP guards to prevent recurrence.
-- **Custom storefront engineering** — dynamic SKU-configurator JavaScript across **10 product lines**, conditional product-options logic, custom Dompdf invoice templates, Stripe payments, Cloudflare CDN.
-- **AI automation** — LLM-powered purchase-order agent (Ollama, local models) that parses customer POs and auto-maps line items to catalog SKUs.
+- **6 production AI agents** — order processing, PO-to-SKU parsing, email triage, document handling, CNC G-code generation — orchestrated on **LangGraph** + custom Python (Slack Socket Mode), served on a self-hosted **vLLM / Ollama** stack at **zero per-call API cost**. Quantized (AWQ/GPTQ) for throughput; traces and evals in **Langfuse**.
+- **RAG knowledge system** — semantic retrieval (chunk to embeddings to **pgvector**) grounding agent responses in source documents; local models fine-tuned with **Unsloth/PyTorch**, training tracked in Weights & Biases.
+
+## 🛠️ Shipped for a real company
+
+- **Test Standards Hub** — internal full-stack platform (React/Vite · Express · Prisma/PostgreSQL · Adobe PDF Services) turning WooCommerce orders into manufacturing outputs: **3,800+ NIST-traceable certificates** (~450 hrs of manual work eliminated), engraving SVGs, and CNC-ready STL files. Certs cryptographically signed (pyHanko) for tamper-evidence.
+- **Order-to-manufacturing automation** — WordPress webhook over a **Cloudflare Tunnel** triggers cert generation + PrintNode shop-floor printing on every order, generates UPS labels with tracking write-back, serves certs through an account-gated customer portal. No exposed origin, no manual hand-off.
+- **Zero-downtime production migration** — moved a live store to dedicated DigitalOcean NVMe hosting with no data loss; killed a **CVSS 9.8** plugin vuln; three-tier backup/DR; two-tailnet **Tailscale** topology for least-privilege remote access.
+- **ERPNext v16 deployment + ETL** — deployed ERPNext (Docker) ahead of rollout; Python ETL converting QuickBooks exports — **4,720 products, 2,852 customers** under a custom SKU schema.
+- **SQL data recovery** — recovered **1,534 corrupted order records** via targeted SQL, then added PHP guards to prevent recurrence.
 
 ➡️ Sanitized architecture write-ups: **[work-casebook](https://github.com/wtcrowe4/work-casebook)**
 
@@ -39,12 +43,12 @@ Sole technical operator of a B2B WooCommerce e-commerce manufacturer — I own t
 | | |
 |---|---|
 | **Languages** | JavaScript/TypeScript · Python · PHP · SQL · C# · Bash |
-| **Frontend** | React · Next.js · Node/Express · React Three Fiber · Tailwind · HTML/CSS |
+| **AI / ML** | vLLM · Ollama · LangGraph/LangChain · RAG (pgvector) · Hugging Face/PyTorch · Unsloth · AWQ/GPTQ · Langfuse · MCP |
+| **Frontend** | React · Next.js · Node/Express · React Three Fiber · Tailwind · Playwright |
 | **Backend / CMS** | WordPress · WooCommerce · Express · custom PHP · REST APIs |
-| **Data** | PostgreSQL · Prisma · MySQL/MariaDB · MongoDB · MSSQL |
-| **Infra / DevOps** | Docker · Linux/WSL · Cloudflare · DigitalOcean/Cloudways · Tailscale · AWS · Azure · Netlify |
-| **ERP / Business** | ERPNext · QuickBooks (QBWC/SOAP) · Stripe |
-| **AI / Automation** | Ollama (local LLMs) · agent pipelines · MCP · PDF pipelines · Claude Code |
+| **Data** | PostgreSQL · Prisma · pgvector · MySQL/MariaDB |
+| **Infra / DevOps** | Docker · Linux/WSL · Cloudflare · DigitalOcean/Cloudways · Tailscale · SOPS/age · Netlify |
+| **ERP / Business** | ERPNext · QuickBooks (QBWC/SOAP) · Stripe · PrintNode |
 
 ## 📌 Featured
 
