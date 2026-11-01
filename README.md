@@ -1,10 +1,10 @@
 <!-- wtcrowe4/wtcrowe4 — GitHub profile README. Edit master-profile.md first, then sync. -->
 
-<img src="golf_icons.jpg" alt="Thomas Crowe — Full-Stack & AI Engineer" width="100%" />
+<img src="golf_icons.jpg" alt="Thomas Crowe — Full-Stack Developer & Technical Operations Lead" width="100%" />
 
 # Thomas Crowe
 
-### Full-Stack & AI Engineer — [CalibrationWands.com](https://calibrationwands.com) (Fastec Services LLC)
+### Full-Stack Developer & Technical Operations Lead — [CalibrationWands.com](https://calibrationwands.com) (Fastec Services LLC)
 
 📍 Greenville, SC &nbsp;·&nbsp; [LinkedIn](https://www.linkedin.com/in/wthomascrowe) &nbsp;·&nbsp; [Portfolio](https://thomascrowe.netlify.app) &nbsp;·&nbsp; 📫 wtcrowe4@outlook.com
 
@@ -21,20 +21,17 @@
 
 ---
 
-I build and run the entire technical stack of a B2B e-commerce manufacturer — production web apps, self-hosted AI automation, cloud infrastructure, and business-system integrations. Solo operator, every layer from React UI to Linux box. I turn manual operations into software that ships, and I run the platform it deploys to.
+Full-stack developer and technical operations lead for a B2B e-commerce manufacturer. I build production web apps, internal platforms, business-system integrations, and self-hosted AI automation, and I run the infrastructure they deploy to.
 
-## 🤖 AI automation (self-hosted, zero per-call cost)
+## 🛠️ Recent work (shipped, for a real company)
 
-- **6 production AI agents** — order processing, PO-to-SKU parsing, email triage, document handling, CNC G-code generation — orchestrated on **LangGraph** + custom Python (Slack Socket Mode), served on a self-hosted **vLLM / Ollama** stack at **zero per-call API cost**. Quantized (AWQ/GPTQ) for throughput; traces and evals in **Langfuse**.
-- **RAG knowledge system** — semantic retrieval (chunk to embeddings to **pgvector**) grounding agent responses in source documents; local models fine-tuned with **Unsloth/PyTorch**, training tracked in Weights & Biases.
-
-## 🛠️ Shipped for a real company
-
-- **Test Standards Hub** — internal full-stack platform (React/Vite · Express · Prisma/PostgreSQL · Adobe PDF Services) turning WooCommerce orders into manufacturing outputs: **3,800+ NIST-traceable certificates** (~450 hrs of manual work eliminated), engraving SVGs, and CNC-ready STL files. Certs cryptographically signed (pyHanko) for tamper-evidence.
-- **Order-to-manufacturing automation** — WordPress webhook over a **Cloudflare Tunnel** triggers cert generation + PrintNode shop-floor printing on every order, generates UPS labels with tracking write-back, serves certs through an account-gated customer portal. No exposed origin, no manual hand-off.
-- **Zero-downtime production migration** — moved a live store to dedicated DigitalOcean NVMe hosting with no data loss; killed a **CVSS 9.8** plugin vuln; three-tier backup/DR; two-tailnet **Tailscale** topology for least-privilege remote access.
-- **ERPNext v16 deployment + ETL** — deployed ERPNext (Docker) ahead of rollout; Python ETL converting QuickBooks exports — **4,720 products, 2,852 customers** under a custom SKU schema.
-- **SQL data recovery** — recovered **1,534 corrupted order records** via targeted SQL, then added PHP guards to prevent recurrence.
+- **Test Standards Hub**: internal platform (React/Vite · Express · Prisma/PostgreSQL) that turns orders into manufacturing outputs: **3,800+ auto-generated NIST-traceable certificates** (~450 hours of manual work eliminated), engraving SVGs, and STL files for the CNC machine. Certificates are signed with pyHanko for tamper-evident verification.
+- **Self-hosted AI agents**: 6 production agents (order processing, PO parsing, email triage, document handling, CNC G-code) on LangGraph + custom Python, served on vLLM/Ollama at zero per-call API cost, with pgvector RAG and Langfuse tracing.
+- **Order-to-manufacturing automation**: a WordPress webhook over a **Cloudflare Tunnel** triggers certificate generation and PrintNode shop-floor printing on every order, generates UPS labels with tracking written back, and serves certificates through an account-gated customer portal. No exposed origin, no manual hand-off.
+- **Accounting & inventory integration**: QuickBooks Desktop (qbXML) and Zoho Inventory wired into the order platform, with per-write verification and an audit log with revert; an LLM intake pipeline turns emailed POs into validated orders, with human approval before anything posts.
+- **Zero-downtime production migration**: moved a live B2B store to dedicated DigitalOcean NVMe hosting with no downtime or data loss; recurring outages went from 145+/month to near zero.
+- **CI/CD & observability**: GitLab CI with secret scanning, zero-restart release-swap deploys with health checks, Sentry/Bugsink error tracking, and Slack alerting.
+- **WooCommerce platform engineering**: 50+ custom plugins and a dynamic SKU configurator across 10 product lines; recovered 1,534 order records with targeted SQL and added validation guards.
 
 ➡️ Sanitized architecture write-ups: **[work-casebook](https://github.com/wtcrowe4/work-casebook)**
 
@@ -42,13 +39,13 @@ I build and run the entire technical stack of a B2B e-commerce manufacturer — 
 
 | | |
 |---|---|
-| **Languages** | JavaScript/TypeScript · Python · PHP · SQL · C# · Bash |
-| **AI / ML** | vLLM · Ollama · LangGraph/LangChain · RAG (pgvector) · Hugging Face/PyTorch · Unsloth · AWQ/GPTQ · Langfuse · MCP |
-| **Frontend** | React · Next.js · Node/Express · React Three Fiber · Tailwind · Playwright |
-| **Backend / CMS** | WordPress · WooCommerce · Express · custom PHP · REST APIs |
-| **Data** | PostgreSQL · Prisma · pgvector · MySQL/MariaDB |
-| **Infra / DevOps** | Docker · Linux/WSL · Cloudflare · DigitalOcean/Cloudways · Tailscale · SOPS/age · Netlify |
-| **ERP / Business** | ERPNext · QuickBooks (QBWC/SOAP) · Stripe · PrintNode |
+| **Languages** | JavaScript/TypeScript · Python · PHP · SQL · Bash · PowerShell · C# |
+| **Web** | React · Next.js · Node.js/Express · REST APIs · React Three Fiber · Tailwind · Vite |
+| **Data** | PostgreSQL · Prisma · pgvector · MySQL/MariaDB · FastAPI · REST APIs |
+| **Testing** | Vitest · Node test runner · Supertest · Playwright · ESLint · CI test gates |
+| **Infra / DevOps** | Docker · Linux/systemd · GitLab CI · Cloudflare (Tunnel/Access) · DigitalOcean · Oracle Cloud · Sentry · Tailscale |
+| **Business systems** | WordPress/WooCommerce · Stripe · QuickBooks Desktop (qbXML) · Zoho Inventory · UPS API · PrintNode |
+| **AI / Automation** | vLLM · Ollama · LangGraph · RAG (pgvector) · Unsloth/PyTorch · Langfuse · MCP · Claude Code |
 
 ## 📌 Featured
 
