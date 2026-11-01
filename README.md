@@ -41,9 +41,9 @@ Full-stack developer and technical operations lead for a B2B e-commerce manufact
 |---|---|
 | **Languages** | JavaScript/TypeScript · Python · PHP · SQL · Bash · PowerShell · C# |
 | **Web** | React · Next.js · Node.js/Express · REST APIs · React Three Fiber · Tailwind · Vite |
-| **Data** | PostgreSQL · Prisma · pgvector · MySQL/MariaDB · FastAPI · REST APIs |
+| **Data** | PostgreSQL · Prisma · pgvector · MySQL/MariaDB · SQL Server · MongoDB · FastAPI |
 | **Testing** | Vitest · Node test runner · Supertest · Playwright · ESLint · CI test gates |
-| **Infra / DevOps** | Docker · Linux/systemd · GitLab CI · Cloudflare (Tunnel/Access) · DigitalOcean · Oracle Cloud · Sentry · Tailscale |
+| **Infra / DevOps** | Docker · Linux/systemd · GitLab CI · Cloudflare (Tunnel/Access) · AWS · DigitalOcean · Oracle Cloud · Sentry · Tailscale |
 | **Business systems** | WordPress/WooCommerce · Stripe · QuickBooks Desktop (qbXML) · Zoho Inventory · UPS API · PrintNode |
 | **AI / Automation** | vLLM · Ollama · LangGraph · RAG (pgvector) · Unsloth/PyTorch · Langfuse · MCP · Claude Code |
 
